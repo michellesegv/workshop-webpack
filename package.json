@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "start": "static"
+    "start": "webpack-dev-server"
   },
   "keywords": [
     "webpack"
@@ -13,10 +13,23 @@
   "author": "Michelle Seguil",
   "license": "MIT",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-boilerplate": "^1.1.1",
+    "css-loader": "^0.28.10",
+    "html-webpack-plugin": "^3.0.4",
+    "open-browser-webpack-plugin": "0.0.5",
     "webpack": "^4.0.1",
-    "webpack-cli": "^2.0.10"
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0"
   },
   "dependencies": {
-    "node-static": "^0.7.10"
+    "node-static": "^0.7.10",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }
